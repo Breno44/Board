@@ -1,10 +1,17 @@
 import styles from "../styles/Home.module.css";
-import Houses from "../components/Houses";
+import Line from "../components/Line";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Houses />
+      <Line />
+      <Line reverse />
+      <Line />
+      <Line reverse />
+      <Line />
+      <Line reverse />
+      <Line />
+      <Line reverse />
     </div>
   );
 }
